@@ -9,7 +9,7 @@ const answers = await inquirer.prompt([
     }
 ]);
 if (answers.userGuessedNumber === randomNumber) {
-    console.log("HURRY!!!z you guessed it right");
+    console.log("HURRY!!!!! you guessed it right");
 }
 else {
     console.log("you guessed it wrong");
